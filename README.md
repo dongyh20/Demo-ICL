@@ -1,4 +1,4 @@
-# Demo-ICL: Demo-driven Video In-Context Learning
+# Demo-ICL: In-Context Learning for Procedural Video Knowledge Acquisition
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2602.XXXXX) 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/Ola-Omni/Ola/blob/main/LICENSE)
