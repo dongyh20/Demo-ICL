@@ -36,7 +36,7 @@ We introduce:
 
 1. **Text-demo ICL (500 samples):** The model must retrieve relevant procedure steps from textual instructions to predict the next action in a target video.
 2. **Video-demo ICL (500 samples):** The model is provided with a reference video of a similar task and must transfer that visual procedural knowledge to the target video.
-3. **Demonstration Selection (200 samples):** A realistic setting where the model must search a candidate pool (containing distractors) to find the correct demonstration before solving the task.
+3. **Demonstration Selection (200 samples):** A realistic setting where the model must select from a candidate pool (containing distractors) to find the correct demonstration before solving the task.
 
 
 ## 🚀 Methodology
@@ -47,18 +47,17 @@ We introduce:
 
 ### Dataset Construction
 
-We construct **Demo-ICL-Bench** using a **coarse-to-fine pipeline** on HowTo100M [cite: 98-100], ensuring high-quality demonstrations:
+We construct **Demo-ICL-Bench** using a **coarse-to-fine pipeline** on HowTo100M, ensuring high-quality demonstrations:
 
 * **Data Processing:** WhisperX provides precise timestamps, while Qwen2.5-72B summarizes transcripts into structured instructions, filtering irrelevant steps.
 * **Demonstration Selection:** Video pairs are identified via search rankings (coarse) and validated by LLMs for semantic similarity (fine) to ensure transferability.
-* **Task Formulation:** Questions target intermediate steps. The **Demonstration Selection** task challenges models to identify the correct video from a dynamic pool of distractors.
 
 ### Training Strategy
 
 Our model, **Demo-ICL**, employs a two-stage strategy:
 
-1. **Video SFT:** Fine-tuning **Ola-Video** on diverse video/image-text data (e.g., LLaVA-Video, COIN) to establish foundational understanding.
-2. **Information-Assisted DPO:** A novel pipeline utilizing **assistive information** (e.g., timestamps) during training to align responses with human preferences, enabling accurate inference without auxiliary aids.
+1. **Video SFT:** Fine-tuning **Ola-Video** on diverse video/image-text data to establish foundational understanding.
+2. **Information-Assisted DPO:** A novel pipeline utilizing **assistive information** during training to align responses with human preferences, enabling accurate inference without auxiliary aids.
 ## 📊 Results
 
 ### Demo-Driven Capabilities
@@ -71,7 +70,6 @@ Demo-ICL (7B) significantly outperforms existing open-source and proprietary mod
 
 * **State-of-the-Art Performance:** Demo-ICL achieves an average accuracy of **33.1%**, surpassing Qwen2.5-VL-72B (29.5%) despite being 10x smaller.
 * **Positive Transfer:** Unlike many baselines which degrade when given video demonstrations (negative $\Delta_{ICL}$), Demo-ICL achieves a **+4.4** improvement with video demos and **+14.0** with text demos.
-* **Demonstration Selection:** It achieves **58.0%** selection accuracy, significantly higher than other 7B models like LLaVA-Video (44.5%).
 
 ### General Video Understanding
 
