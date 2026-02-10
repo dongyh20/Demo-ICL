@@ -1,6 +1,6 @@
 # Demo-ICL: In-Context Learning for Procedural Video Knowledge Acquisition
 
-[![arXiv](https://img.shields.io/badge/arXiv-2602.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2602.XXXXX) 
+[![arXiv](https://img.shields.io/badge/arXiv-2602.08439-b31b1b.svg)](https://arxiv.org/abs/2602.08439) 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/Ola-Omni/Ola/blob/main/LICENSE)
 [![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue)](https://huggingface.co/THUdyh/Demo-ICL)
 
@@ -99,7 +99,7 @@ If you find this work useful, please cite our paper:
 @article{dong2025demoicl,
   title={Demo-ICL: In-Context Learning for Procedural Video Knowledge Acquisition},
   author={Dong, Yuhao and Tian, Shulin and Liu, Shuai and Ding, Shuangrui and Zang, Yuhang and Dong, Xiaoyi and Cao, Yuhang and Wang, Jiaqi and Liu, Ziwei},
-  journal={arXiv preprint arXiv:2602.XXXXX},
+  journal={arXiv preprint arXiv:2602.08439},
   year={2026}
 }
 ```
