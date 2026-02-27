@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.08439-b31b1b.svg)](https://arxiv.org/abs/2602.08439) 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/Ola-Omni/Ola/blob/main/LICENSE)
-[![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue)](https://huggingface.co/THUdyh/Demo-ICL)
+[![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/Choiszt/demo-icl)
 
 **[Yuhao Dong](https://scholar.google.com/citations?user=kMui170AAAAJ)**<sup>1*</sup>, **[Shulin Tian](https://shulin16.github.io/)**<sup>1*</sup>, **[Shuai Liu](https://choiszt.github.io/)**<sup>1</sup>, **[Shuangrui Ding](https://mark12ding.github.io/)**<sup>2,3</sup>, **[Yuhang Zang](https://yuhangzang.github.io/)**<sup>2</sup>, **[Xiaoyi Dong]()**<sup>2</sup>, **[Yuhang Cao](https://scholar.google.com/citations?user=sJkqsqkAAAAJ)**<sup>2</sup>, **[Jiaqi Wang](https://myownskyw7.github.io/)**<sup>2</sup>, **[Ziwei Liu](https://liuziwei7.github.io/index.html)**<sup>1</sup>
 
